@@ -1,0 +1,31 @@
+{
+    "authors": [
+        {
+            "email": "rtwitty@users.sourceforge.net",
+            "name": "Robert Twitty",
+            "role": "Lead"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "DB_odbtp": "./"
+        }
+    },
+    "description": "More info available on: http://pear.php.net/package/DB_odbtp",
+    "include-path": [
+        "./"
+    ],
+    "license": "PHP",
+    "name": "pear/db_odbtp",
+    "support": {
+        "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=DB_odbtp",
+        "source": "https://github.com/pear/DB_odbtp"
+    },
+    "type": "library",
+    "require": {
+        "pear/pear_exception": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
